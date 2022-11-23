@@ -1,13 +1,15 @@
 export interface ICard {
   dados: {
-    id: number,
-    nome: string,
-    data: string,
-    titulo: string,
-    mensagem: string,
-    topico: {
+    id?: number,
+    title?: string,
+    message?: string,
+    created_at?: string,
+    user?: {
+      name: string,
+    }
+    messageTopic?: {
       id: number,
-      item: string
+      name: string
     }[]
   }
 }
