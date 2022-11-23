@@ -19,4 +19,3 @@ export interface IMessageData {
     created_at?: string
     topic?: number[] | undefined
   }
-  
