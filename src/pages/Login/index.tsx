@@ -6,7 +6,7 @@ import { toast } from "react-toastify";
 
 import * as S from "./styles";
 import { ButtonComponent } from "components";
-import { useAuth } from "hooks/authHook";
+import { useAuth } from "hooks/authHooks";
 import { IErrorResponse, IUser } from "interfaces/user.interface";
 import { AxiosError } from "axios";
 
