@@ -4,3 +4,5 @@ export { default as HomePage } from "./Home"
 export { default as CadastrarPage } from "./Cadastrar"
 export { default as LoginPage } from "./Login"
 
+export * from "./Adm"
+
